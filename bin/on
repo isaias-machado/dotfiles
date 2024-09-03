@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd "$HOME/Dropbox/MyVaultDrive/6\ -\ Apontamentos/"
+if [ $# -eq 0 ]
+then
+  echo "Error: A file name must be set"
+  exit 1
+elif [ -e $1 ]
+then
+  echo "Error: A file with the same name already exists"
+  exit 1
+else
+  file_name=$(echo $1.md | sed 's/ /-/')
+  touch "${file_name}"
+  nvim "${file_name}"
+fi
