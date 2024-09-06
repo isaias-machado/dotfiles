@@ -129,3 +129,4 @@ alias gdb="gdb -q "
 
 . "$HOME/.cargo/env"
 setxkbmap -layout pt
+setxkbmap -option caps:none
