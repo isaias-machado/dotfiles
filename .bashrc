@@ -124,6 +124,8 @@ alias on="nvim ~/Dropbox/MyVaultDrive/6 - Apontamentos/"
 alias t="tmux"
 alias v="nvim"
 alias o="obsidian"
-alias p="cd ~/projects"
+alias p="cd ~/projects/misc"
+alias gdb="gdb -q "
 
 . "$HOME/.cargo/env"
+setxkbmap -layout pt
