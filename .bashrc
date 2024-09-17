@@ -1,5 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# ~/.bashrc: executed by bash(1) for non-login shells. see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
 # If not running interactively, don't do anything
@@ -124,9 +123,7 @@ alias on="nvim ~/Dropbox/MyVaultDrive/6 - Apontamentos/"
 alias t="tmux"
 alias v="nvim"
 alias o="obsidian"
-alias p="cd ~/projects/misc"
 alias gdb="gdb -q "
 
 . "$HOME/.cargo/env"
 setxkbmap -layout pt
-setxkbmap -option caps:none
